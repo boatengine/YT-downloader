@@ -21,3 +21,5 @@ app.get('/download', (req,res) => {
     }).pipe(res);
 
 });
+
+module.exports = app;
